@@ -11,3 +11,15 @@ Data structures and algorithms are an essential part of computer science and pro
 For example, some common data structures include arrays, linked lists, trees, graphs, and hash tables. Algorithms can be used to search and sort data, traverse trees and graphs, and perform many other operations on data structures.
 
 Knowing data structures and algorithms can help you write more efficient and effective code, and is an important skill for any programmer to have.</p>
+
+# Overview
+
+- Data Structure is a systematic way to organize data in order to use it efficiently.   Following terms are the foundation terms of a data structure.
+  - [ ] Interface ->Each data structure has an interface. Interface    represents the set of operations that a data structure supports. An interface only provides the list of supported operations, type of parameters they can accept and return type of these operations.
+  - [ ] Implementation −>Implementation provides the internal representation of a data structure. Implementation also provides the definition of the algorithms used in the operations of the data structure.
+
+## Characteristics of a Data Structure
+
+  - [ ] Correctness − Data structure implementation should implement its interface correctly.
+  - [ ] Time Complexity − Running time or the execution time of operations of data structure must be as small as possible.
+  - [ ] Space Complexity − Memory usage of a data structure operation should be as little as possible.
