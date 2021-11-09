@@ -19,7 +19,7 @@ Knowing data structures and algorithms can help you write more efficient and eff
   - [ ] Implementation −>Implementation provides the internal representation of a data structure. Implementation also provides the definition of the algorithms used in the operations of the data structure.
 
 ## Characteristics of a Data Structure
-- 
+
   - [ ] Correctness − Data structure implementation should implement its interface correctly.
   - [ ] Time Complexity − Running time or the execution time of operations of data structure must be as small as possible.
   - [ ] Space Complexity − Memory usage of a data structure operation should be as little as possible.
@@ -27,4 +27,4 @@ Knowing data structures and algorithms can help you write more efficient and eff
 ## Need for Data Structure
 
 - As applications are getting complex and data rich, there are three common problems that applications face now-a-days.
-  - [ ] <span><h3>Data Search</h3><span> -> Consider an inventory of 1 million(106) items of a store. If the application is to search an item, it has to search an item in 1 million(106) items every time slowing down the search. As data grows, search will become slower.
+  - [ ] <bold>Data Search<bold> Consider an inventory of 1 million(106) items of a store. If the application is to search an item, it has to search an item in 1 million(106) items every time slowing down the search. As data grows, search will become slower.
