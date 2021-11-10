@@ -27,4 +27,4 @@ Knowing data structures and algorithms can help you write more efficient and eff
 ## Need for Data Structure
 
 - As applications are getting complex and data rich, there are three common problems that applications face now-a-days.
-  - [ ] <bold>Data Search<bold> Consider an inventory of 1 million(106) items of a store. If the application is to search an item, it has to search an item in 1 million(106) items every time slowing down the search. As data grows, search will become slower.
+  - [ ] <strong>Data Search<strong> Consider an inventory of 1 million(106) items of a store. If the application is to search an item, it has to search an item in 1 million(106) items every time slowing down the search. As data grows, search will become slower.
