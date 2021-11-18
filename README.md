@@ -35,3 +35,14 @@ Knowing data structures and algorithms can help you write more efficient and eff
   - [ ] Multiple requests -> As thousands of users can search data simultaneously on a web server, even the fast server fails while searching the data.
 
 - To solve the above-mentioned problems, data structures come to rescue. Data can be organized in a data structure in such a way that all items may not be required to be searched, and the required data can be searched almost instantly.
+
+## Execution Time Cases
+
+- There are three cases which are usually used to compare various data structure's execution time in a relative manner.
+  - [ ] Worst Case −> This is the scenario where a particular data structure operation takes maximum time it can take. If an operation's worst case time is ƒ(n) then this operation will not take more than ƒ(n) time where ƒ(n) represents function of n.
+
+  - [ ] Average Case −> This is the scenario depicting the average execution time of an operation of a data structure. If an operation takes ƒ(n) time in execution, then m operations will take mƒ(n) time.
+
+  - [ ] Best Case −> This is the scenario depicting the least possible execution time of an operation of a data structure. If an operation takes ƒ(n) time in execution, then the actual operation may take time as the random number which would be maximum as ƒ(n).
+
+  
