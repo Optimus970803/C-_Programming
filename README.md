@@ -45,4 +45,19 @@ Knowing data structures and algorithms can help you write more efficient and eff
 
   - [ ] Best Case −> This is the scenario depicting the least possible execution time of an operation of a data structure. If an operation takes ƒ(n) time in execution, then the actual operation may take time as the random number which would be maximum as ƒ(n).
 
-  
+
+## Basic Terminology
+
+- [ ] Data -> Data are values or set of values.
+- [ ] Data Item -> Data item refers to single unit of values.
+- [ ] Group Items -> Data items that are divided into sub items are called as Group Items.
+- [ ] Elementary Items -> Data items that cannot be divided are called as Elementary Items.
+- [ ] Attribute and Entity − An entity is that which contains certain attributes or properties, which may be assigned values.
+
+- [ ] Entity Set − Entities of similar attributes form an entity set.
+
+- [ ] Field − Field is a single elementary unit of information representing an attribute of an entity.
+
+- [ ] Record − Record is a collection of field values of a given entity.
+
+- [ ] File − File is a collection of records of the entities in a given entity set.
