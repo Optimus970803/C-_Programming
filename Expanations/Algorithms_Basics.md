@@ -30,7 +30,7 @@ We write algorithms in a step-by-step manner, but it is not always the case. Alg
 ## Example
 - Let's try to learn algorithm-writing by using an example.
   - Problem − Design an algorithm to add two numbers and display the result.
-  '''
+'''
     Step 1 − START
     Step 2 − declare three integers a, b & c
     Step 3 − define values of a & b
@@ -38,17 +38,17 @@ We write algorithms in a step-by-step manner, but it is not always the case. Alg
     Step 5 − store output of step 4 to c
     Step 6 − print c
     Step 7 − STOP
-
-  '''
+'''
   - Algorithms tell the programmers how to code the program. Alternatively, the algorithm can be written as:
-  '''
+
+'''
     Step 1 − START ADD
     Step 2 − get values of a & b
     Step 3 − c ← a + b
     Step 4 − display c
     Step 5 − STOP
 
-  '''
+'''
   - In design and analysis of algorithms, usually the second method is used to describe an algorithm. It makes it easy for the analyst to analyze the algorithm ignoring all unwanted definitions. He can observe what operations are being used and how the process is flowing.
   - Writing step numbers, is optional.
   - We design an algorithm to get a solution of a given problem. A problem can be solved in more than one ways.
