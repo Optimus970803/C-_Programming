@@ -56,3 +56,12 @@ We write algorithms in a step-by-step manner, but it is not always the case. Alg
   ![Alt text](https://www.tutorialspoint.com/data_structures_algorithms/images/algorithm_analysis.jpg)
   - Hence, many solution algorithms can be derived for a given problem. The next step is to analyze those proposed solution algorithms and implement the best suitable solution.
 
+## Algorithm Analysis
+
+- Efficiency of an algorithm can be analyzed at two different stages, before implementation and after implementation. They are the following:
+  - [ ] A Priori Analysis − This is a theoretical analysis of an algorithm. Efficiency of an algorithm is measured by assuming that all other factors, for example, processor speed, are constant and have no effect on the implementation.
+  - [ ] A Posterior Analysis − This is an empirical analysis of an algorithm. The selected algorithm is implemented using programming language. This is then executed on target computer machine. In this analysis, actual statistics like running time and space required, are collected.
+
+- Algorithm analysis deals with the execution or running time of various operations involved. The running time of an operation can be defined as the number of computer instructions executed per operation.
+
+## Algorithm Complexity 
