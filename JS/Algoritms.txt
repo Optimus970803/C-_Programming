@@ -90,3 +90,14 @@ If you want to use degrees instead of radians, you have to convert degrees to ra
 
     Example
     Math.sin(90 * Math.PI / 180);     // returns 1 (the sine of 90 degrees)
+
+-----------------------Proper Random Function-----------------------------
+This JavaScript function always returns a random number between min (included) and max (excluded):
+  - function getRndInteger(min, max) {
+      return Math.floor(Math.random() * (max - min) ) + min;
+    }
+
+This JavaScript function always returns a random number between min and max (both included):
+  - function getRndInteger(min, max) {
+      return Math.floor(Math.random() * (max - min + 1) ) + min;
+    }
