@@ -68,7 +68,7 @@
         return max;
       }
 
-------------------------Sorting Object Arrays-------------------------
+------------------------Sorting Object Arrays--------------------------------------------
 - JavaScript arrays often contain objects:
   - Even if objects have properties of different data types, the sort() method can be used to sort the array.
     The solution is to write a compare function to compare the property values:
@@ -83,7 +83,7 @@
         return 0;
       });
 
------------------------Math.sin()--------------------------------------
+-----------------------Math.sin()-------------------------------------------------------
 Math.sin(x) returns the sine (a value between -1 and 1) of the angle x (given in radians).
 If you want to use degrees instead of radians, you have to convert degrees to radians:
   - Angle in radians = Angle in degrees x PI / 180.
@@ -101,3 +101,14 @@ This JavaScript function always returns a random number between min and max (bot
   - function getRndInteger(min, max) {
       return Math.floor(Math.random() * (max - min + 1) ) + min;
     }
+
+---------------------------Converting Decimal to Binary------------------------------------
+function dec2bin(dec){
+  return (dec >>> 0).toString(2);
+}
+
+
+--------------------------Converting Binary to Decimal-------------------------------------
+function bin2dec(bin){
+  return parseInt(bin, 2).toString(10);
+}
