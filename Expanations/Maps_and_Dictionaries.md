@@ -1,11 +1,11 @@
 
 # Maps and Dictionaries
   Maps (also known as Dictionaries) are data structures stores a collection of key-value pairs. Each key is unique and allows for quick access to values. A real life example of a map could be storing the grades for students in a class (student name is key, grade is value).
-  - ## Hash Table Introduction
-  Hash Table is a data structure which organizes data using hash functions in order to support quick insertion and search.
+  ## Hash Table Introduction
+  - Hash Table is a data structure which organizes data using hash functions in order to support quick insertion and search.
   There are two different kinds of hash tables: hash set and hash map.
-   - The hash set is one of the implementations of a set data structure to store no repeated values.
-   - The hash map is one of the implementations of a map data structure to store (key, value) pairs.
+    - The hash set is one of the implementations of a set data structure to store no repeated values.
+    - The hash map is one of the implementations of a map data structure to store (key, value) pairs.
   - It is easy to use a hash table with the help of standard template libraries. Most common languages such as Java, C++ and Python support both hash set and hash map.
   By choosing a proper hash function, the hash table can achieve wonderful performance in both insertion and search.
   In this card, we will answer the following questions:
