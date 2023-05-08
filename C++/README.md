@@ -5,4 +5,4 @@
 ## Overview
 <p>
 -Data Structure is a systematic way to organize data in order to use it efficiently. Following terms are the foundation terms of a data structure.
--<h2>Interface</h2> --Each data structure has an interface. Interface represents the set of operations that a data structure supports. An interface only provides the list of supported operations, type of parameters they can accept and return type of these operations.
+-Interface ->Each data structure has an interface. Interface represents the set of operations that a data structure supports. An interface only provides the list of supported operations, type of parameters they can accept and return type of these operations.
