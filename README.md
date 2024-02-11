@@ -11,3 +11,6 @@ Data structures and algorithms are an essential part of computer science and pro
 For example, some common data structures include arrays, linked lists, trees, graphs, and hash tables. Algorithms can be used to search and sort data, traverse trees and graphs, and perform many other operations on data structures.
 
 Knowing data structures and algorithms can help you write more efficient and effective code, and is an important skill for any programmer to have.</p>
+
+
+  - [x] [Overview](https://github.com/BekCodingAddict/DSA/blob/DSA-master/Expanations/Overview.md)
