@@ -1,6 +1,6 @@
 
 # Maps and Dictionaries
-  - Maps (also known as Dictionaries) are data structures stores a collection of key-value pairs. Each key is unique and allows for quick access to values. A real life example of a map could be storing the grades for students in a class (student name is key, grade is value).
+Maps (also known as Dictionaries) are data structures stores a collection of key-value pairs. Each key is unique and allows for quick access to values. A real life example of a map could be storing the grades for students in a class (student name is key, grade is value).
   - ## Hash Table Introduction
   Hash Table is a data structure which organizes data using hash functions in order to support quick insertion and search.
   There are two different kinds of hash tables: hash set and hash map.
