@@ -44,3 +44,4 @@ newArray.push("!");
 // newArray.pop();
 newArray.delete(1);
 console.log(newArray);
+console.log([].values);
