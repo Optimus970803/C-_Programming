@@ -69,6 +69,23 @@ class LinkedList {
     this.length++;
     return this.printList();
   }
+
+  remove(index) {
+    if (index < 0 || index > this.length) return "Your input index excessed!";
+    let i = 0;
+    let currentNode = this.head;
+    let perviousNode = this.head;
+    while (i < index) {
+      i++;
+      perviousNode = currentNode;
+      currentNode = currentNode.next;
+    }
+    perviousNode.next = currentNode.next;
+    perviousNode = currentNode.next;
+    this.length--;
+
+    return this.printList();
+  }
 }
 
 const myLinkedList = new LinkedList(10);
@@ -78,5 +95,7 @@ myLinkedList.prepend(40);
 myLinkedList.insert(1, 50);
 myLinkedList.insert(0, 60);
 myLinkedList.insert(11, 70);
-
+myLinkedList.remove(2);
+myLinkedList.remove(1);
+myLinkedList.remove(10);
 console.log(myLinkedList.printList());
