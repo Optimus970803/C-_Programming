@@ -31,10 +31,33 @@ class HashTable {
         }
       }
     }
+    return undefined;
   } //O(1)
+
+  keys() {
+    const keysArray = [];
+    for (let i = 0; i < this.data.length; i++) {
+      if (this.data[i]) {
+        keysArray.push(this.data[i][0][0]);
+      }
+    }
+    return keysArray;
+  }
+
+  values() {
+    const valueArrays = [];
+    for (let i = 0; i < this.data.length; i++) {
+      if (this.data[i]) {
+        valueArrays.push(this.data[i][0][1]);
+      }
+    }
+    return valueArrays;
+  }
 }
 
-const myHashTable = new HashTable(2);
+const myHashTable = new HashTable(50);
 myHashTable.set("grapes", 10000);
 myHashTable.set("Banana", 12);
-console.log(myHashTable.get("Banana"));
+myHashTable.get("Banana");
+console.log(myHashTable.keys());
+console.log(myHashTable.values());
