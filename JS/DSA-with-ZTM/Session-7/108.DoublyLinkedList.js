@@ -85,6 +85,8 @@ class DoublyLinkedList {
     this.length--;
     return this.printList();
   }
+
+  rev;
 }
 
 let myLinkedList = new DoublyLinkedList(10);

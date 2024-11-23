@@ -81,9 +81,35 @@ class LinkedList {
       currentNode = currentNode.next;
     }
     perviousNode.next = currentNode.next;
-    perviousNode = currentNode.next;
+    perviousNode = currentNode.next; // ???? torimi bu
     this.length--;
 
+    return this.printList();
+  }
+
+  reverse() {
+    if (!this.head.next) return this.printList();
+    let fristNode = this.head;
+    this.tail = this.head;
+    let secondNode = fristNode.next;
+    while (secondNode) {
+      const temp = secondNode.next;
+      secondNode.next = fristNode;
+      fristNode = secondNode;
+      secondNode = temp;
+    }
+
+    this.head.next = null;
+    this.head = fristNode;
+    return this.printList();
+  }
+
+  sort() {
+    let currentNode = this.head;
+    let temp = null;
+    while (currentNode !== null) {
+      console.log(currentNode.value);
+    }
     return this.printList();
   }
 }
@@ -99,3 +125,4 @@ myLinkedList.remove(2);
 myLinkedList.remove(1);
 myLinkedList.remove(10);
 console.log(myLinkedList.printList());
+console.log(myLinkedList.reverse());
