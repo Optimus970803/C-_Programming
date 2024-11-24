@@ -30,12 +30,15 @@
 4.Balanced Binary Tree:
 - The difference between the heights of the left and right subtrees of any node is at most 1.
 - Examples include AVL trees and Red-Black trees.
+
+5.Unbalanced Binary Tree:
+<img src="https://appliedgo.net/balancedtree/media/BinTreeShapes.png"/>
   
-Skewed Binary Tree:
+6.Skewed Binary Tree:
 - All nodes have only one child.
 - Can be either left-skewed (all children are left) or right-skewed (all children are right).
   
-Binary Search Tree (BST):
+7.Binary Search Tree (BST):
 - A binary tree where the left subtree of a node contains only nodes with values less than the node’s value, and the right subtree contains only nodes with values greater than the node’s value.
 - <img src="https://courses.grainger.illinois.edu/cs225/fa2019/assets/notes/bst/bsttreetraversal.png" height="300px" width="full"/>
 
