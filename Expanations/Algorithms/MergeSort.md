@@ -53,3 +53,12 @@ const unsortedArray = [38, 27, 43, 3, 9, 82, 10];
 const sortedArray = mergeSort(unsortedArray);
 console.log(sortedArray);  // Output: [3, 9, 10, 27, 38, 43, 82]
 ```
+### Explanation:
+mergeSort Function:
+- Recursively splits the input array into smaller sub-arrays until each sub-array contains a single element.
+- Calls the merge function to combine the sorted sub-arrays into a larger sorted array.
+
+merge Function:
+- Takes two sorted arrays (left and right).
+- Compares the elements of both arrays and merges them into a single sorted array.
+- Appends any remaining elements from left or right after the comparison loop.
